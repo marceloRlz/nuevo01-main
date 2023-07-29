@@ -1,0 +1,320 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+  width: auto;
+  height: 177px;
+  background-color: #000;
+  border: 15px solid #d9d5d2;
+  z-index: 10;
+  border-radius: 20px;
+}
+
+h1 {
+  margin-top: 25px;
+  height: auto;
+  font-family: "Chlorinap", sans-serif;
+  color: Red;
+  padding-left: 220px;
+  font-size: 60px;
+  position: absolute;
+}
+
+.mario {
+  height: auto;
+  font-family: "Mario and Luigi", sans-serif;
+  color: Red;
+  padding-left: 300px;
+  font-size: 30px;
+  margin-top: 110px;
+  position: absolute;
+}
+
+.buttons-left::before {
+  color: black;
+  content: "+";
+  font-size: 180px;
+  text-shadow: -2px -2px 0 #d9d5d2, 2px -2px 0 #d9d5d2, -2px 2px 0 #d9d5d2,
+    2px 2px 0 #d9d5d2;
+}
+
+.buttons-left {
+  margin-left: 30px;
+  margin-top: -25px;
+  position: absolute;
+}
+
+.aCircle {
+  background-color: rgb(255, 0, 0);
+  height: 45px;
+  right: 300px;
+  margin-left: 453px;
+  margin-top: 90px;
+  position: absolute;
+  width: 45px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.bCircle {
+  background-color: rgb(255, 0, 0);
+  height: 45px;
+  right: 200px;
+  margin-left: 383px;
+  margin-top: 90px;
+  position: absolute;
+  width: 45px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.b {
+  background-color: #d9d5d2;
+  height: 50px;
+  right: 197px;
+  margin-left: 450px;
+  margin-top: 5px;
+  position: absolute;
+  width: 50px;
+  border-radius: 2px;
+}
+
+.a {
+  background-color: #d9d5d2;
+  height: 50px;
+  right: 297px;
+  margin-left: 380px;
+  margin-top: 5px;
+  position: absolute;
+  width: 50px;
+  border-radius: 2px;
+}
+
+.a-Up {
+  background-color: rgb(255, 0, 0);
+  height: 45px;
+  right: 300px;
+  margin-left: 453px;
+  margin-top: 8px;
+  position: absolute;
+  width: 45px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.b-Up {
+  background-color: rgb(255, 0, 0);
+  height: 45px;
+  right: 200px;
+  margin-left: 383px;
+  margin-top: 8px;
+  position: absolute;
+  width: 45px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.b-Up2 {
+  background-color: #d9d5d2;
+  height: 50px;
+  right: 197px;
+  margin-left: 450px;
+  margin-top: 89px;
+  position: absolute;
+  width: 50px;
+  border-radius: 2px;
+}
+
+.a-Up2 {
+  background-color: #d9d5d2;
+  height: 50px;
+  right: 297px;
+  margin-left: 380px;
+  margin-top: 87px;
+  position: absolute;
+  width: 50px;
+  border-radius: 2px;
+}
+
+.a-juegos {
+  color: red;
+  font-size: 20px;
+  right: 300px;
+  height: 50px;
+  margin-left: 487px;
+  margin-top: 140px;
+  position: absolute;
+  width: 50px;
+}
+
+.b-consolas {
+  color: red;
+  right: 196px;
+  font-size: 20px;
+  height: 50px;
+  margin-left: 417px;
+  margin-top: 140px;
+  position: absolute;
+  width: 50px;
+}
+
+.a-inicio {
+  color: red;
+  font-size: 20px;
+  right: 300px;
+  height: 50px;
+  margin-left: 487px;
+  margin-top: 56px;
+  position: absolute;
+  width: 50px;
+}
+
+.b-contacto {
+  color: red;
+  right: 196px;
+  font-size: 20px;
+  height: 50px;
+  margin-left: 417px;
+  margin-top: 56px;
+  position: absolute;
+  width: 50px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.hambuger {
+  display: none;
+}
+
+@media screen and (max-width: 1040px) {
+  .nav-menu {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 190px;
+    left: -120%;
+    z-index: 11;
+    transition: 0.4s;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .buttons-left {
+    opacity: 0;
+  }
+
+  .aCircle {
+    background-color: rgb(233, 15, 19);
+    height: 70px;
+    right: 460px;
+    margin-top: -155px;
+    width: 70px;
+  }
+
+  .bCircle {
+    background-color: rgb(21, 235, 71);
+    height: 70px;
+    right: 460px;
+    margin-top: -280px;
+    width: 70px;
+  }
+
+  .a-Up {
+    background-color: rgb(21, 0, 255);
+    height: 70px;
+    right: 460px;
+    margin-top: -405px;
+    width: 70px;
+  }
+
+  .b-Up {
+    background-color: rgb(230, 255, 38);
+    height: 70px;
+    right: 460px;
+    margin-left: 453px;
+    margin-top: -30px;
+    position: absolute;
+    width: 70px;
+  }
+
+  .b {
+    right: 455px;
+    margin-top: -740px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .a {
+    height: 80px;
+    width: 80px;
+    right: 455px;
+    margin-top: -490px;
+  }
+
+  .b-Up2 {
+    height: 75px;
+    width: 75px;
+    right: 457px;
+
+    margin-top: -242px;
+  }
+
+  .a-Up2 {
+    height: 80px;
+    width: 80px;
+    right: 455px;
+    margin-top: 7px;
+  }
+
+  .a-juegos {
+    right: 470px;
+    margin-top: -80px;
+  }
+
+  .b-consolas {
+    right: 470px;
+    margin-top: -200px;
+  }
+
+  .a-inicio {
+    right: 470px;
+    margin-top: -332px;
+  }
+
+  .b-contacto {
+    right: 470px;
+    margin-top: 45px;
+  }
+
+  h1 {
+    background: linear-gradient(330deg,
+        #f4f808 10%,
+        #e30505 25%,
+        #37ef09 50%,
+        #062df0 75%,
+        #020af4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h2 {
+    opacity: 0;
+  }
+
+  .nav-menu li b {
+    font-size: 2rem;
+  }
+
+  .hambuger {
+    display: initial;
+  }
+}

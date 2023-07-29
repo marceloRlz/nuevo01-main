@@ -1,0 +1,25 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border: solid 6px grey;
+  border-radius: 14px;
+  font-family: "Chlorinap", sans-serif;
+  margin-top: 2rem;
+
+}
+
+.footer {
+  color: red;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1040px) {
+  .footer {
+    font-size: 1.2rem;
+
+  }
+}

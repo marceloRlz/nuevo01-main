@@ -1,0 +1,9 @@
+.body{
+    background-image: url(../public/img/wall.jpg);
+
+    
+}
+button{
+    display: flex;
+    justify-content: center;
+}

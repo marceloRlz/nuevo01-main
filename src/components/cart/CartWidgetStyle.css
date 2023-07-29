@@ -1,0 +1,15 @@
+.carrito {
+  width: 35px;
+  right: 60px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+.cart-in {
+  font-size: large;
+  font-size: 25px;
+  color: red;
+  right: 63px;
+  margin-top: 80px;
+  position: absolute;
+}

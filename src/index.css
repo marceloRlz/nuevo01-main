@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-image: url(../public/img/wall.jpg);
+  background-color: black;
+
+
+
+}
+
+button {
+
+  border: solid 2px black;
+}
+
+.count-num {
+  font-size: 1rem;
+}

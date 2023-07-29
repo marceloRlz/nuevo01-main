@@ -1,0 +1,176 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgb(243, 249, 255);
+  padding: 1.3rem;
+  max-height: 470px;
+  max-width: 250px;
+  background-image: url(../public/img/pacman2.jpg);
+  font-family: 'Nintendo U', sans-serif;
+
+}
+
+
+
+.precio {
+  color: black;
+  border: solid 2px red;
+  width: 200px;
+  border-radius: 1rem;
+  background-color: rgb(245, 240, 240);
+
+}
+
+
+h3 {
+  font-size: 1.5rem;
+  color: rgb(3, 18, 226);
+}
+
+.card-im {
+  border-radius: 2px 20px 2px 20px;
+  width: 220px;
+  height: 220px;
+  margin: 8px 0;
+
+}
+
+.card-title {
+  display: grid;
+  align-items: center;
+}
+
+
+.card-2 {
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem;
+  background-color: rgb(243, 249, 255);
+  padding: 5px;
+  max-height: 1000px;
+  max-width: auto;
+  background-image: url(../public/img/retro1.jpg);
+  color: rgb(0, 0, 0);
+  font-family: 'Nintendo U', sans-serif;
+  margin-top: 10px;
+  z-index: -20px;
+}
+
+
+
+
+
+.card-3 {
+  font-size: 2rem;
+  font-weight: 1500;
+}
+
+
+.card-im-2 {
+  width: 300px;
+  height: 300px;
+  margin: 1rem 0;
+  border-radius: 20px 0 20px 0;
+  border: solid 2px red;
+}
+
+.card-s {
+  display: grid;
+  justify-content: center;
+  width: 250px;
+  background-color: rgb(10, 10, 10);
+  opacity: 90%;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  ;
+  color: red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif
+}
+
+.detalle {
+  color: rgb(240, 247, 25);
+  font-size: 1.4rem;
+  ;
+}
+
+.detalle:hover {
+  color: #eeede7;
+}
+
+
+
+h4 {
+  display: flex;
+  justify-content: center;
+  color: rgb(82, 243, 13);
+  font-size: 1.3rem;
+  ;
+}
+
+
+.card2 {
+  color: rgb(240, 13, 13);
+  font-size: 1.3rem;
+  margin-top: 240px;
+  text-align: justify;
+}
+
+
+.count-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  background-color: black;
+}
+
+
+.count-num {
+  width: 100px;
+  font-family: sans-serif;
+  background-color: black;
+  cursor: pointer;
+}
+
+.count {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.t-compra {
+
+  border: solid 3px grey;
+  background-color: black;
+  max-width: 300px;
+  font-size: 1.3rem;
+  border-radius: 12px;
+  margin: 1rem;
+
+}
+
+.t-compra:hover {
+  font-size: 1.6rem;
+}
+
+.s-compra {
+
+  border: solid 3px grey;
+  background-color: black;
+  margin: 400px;
+  max-width: 300px;
+  font-size: 1.7rem;
+}
+
+.stock {
+  background-color: black;
+  border: solid 3px grey;
+  max-width: 100px;
+}
+
+
+@media screen and (max-width: 1040px) {}
